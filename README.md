@@ -9,4 +9,4 @@ The ESP32-E-Paper-Driver is a driver board specially designed for driving E-Pape
 
 I use the ESP32 e-paper driver in my smart home as a dashboard to display various sensor data and status information on an e-paper display. The driver connects to my MQTT broker via WLAN and regularly receives data, which is then shown on the display. Due to the low power consumption in sleep mode and the possibility of power supply via lithium battery, the display can be operated over a long period of time without having to be charged frequently.
 
-On my blog [MartinTeske-Blog](MartinTeske-Blog.de) I presented this project.
+On my [BLOG](MartinTeske-Blog.de) I presented this project.
