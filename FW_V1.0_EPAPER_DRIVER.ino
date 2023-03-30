@@ -51,13 +51,13 @@
 
 #define LifeSign          3000      // in milliseconds
 
-const char* ssid          = "Vodafone-7AC4";        // Set your WiFi SSID
-const char* password      = "ZdbaA3AceCpnKbep";     // Set your WiFi password
+const char* ssid          = "";        // Set your WiFi SSID
+const char* password      = "";        // Set your WiFi password
 
-const char* mqtt_server   = "192.168.1.10";         // Set your MQTT Server IP adress
-const char* mqttClientID  = "ESP32-EPaper-Client";  // Set your MQTT Client ID
-const char* mqttUser      = "mqtt";                 // Set your MQTT Username
-const char* mqttPW        = "mqtt";                 // Set your MQTT password
+const char* mqtt_server   = "192.168.1.10";     // Set your MQTT Server IP adress
+const char* mqttClientID  = "";                 // Set your MQTT Client ID
+const char* mqttUser      = "";                 // Set your MQTT Username
+const char* mqttPW        = "";                 // Set your MQTT password
 
 IPAddress local_IP(192, 168, 1, 13);    // Set your Static IP address
 IPAddress gateway(192, 168, 1, 1);      // Set your Gateway IP address
